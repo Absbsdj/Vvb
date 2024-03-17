@@ -1,0 +1,61 @@
+{
+  "name": "sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
+  "descriptio": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
+  "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/AnonymousR1025/StringGenBot",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "23626691": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "751ddd3e8ddb254be1fd8df914a4f687": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "1321338802": {
+      "description": "Telegram id of the person who will known as owner of the bot.",
+      "required": true,
+      "value": ""
+    },
+    "@X_Yl1I": {
+      "description": "X_Yl1I",
+      "required": true,
+      "value": "DevilsHeavenMF"
+    },
+    "7179446515:AAFiOWm5NOu42O1Ss25DERrKNdcZvN-0O3E": {
+      "description": "Get this value from @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
